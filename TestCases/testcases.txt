@@ -1,0 +1,93 @@
+https://www.lufthansa.com/by/en/lh-rentalcar?utm_medium=paidsearch&utm_source=google&utm_campaign=lh_by_en_nonbrand&utm_term=pfx&gclsrc=aw.ds&&subID=1388393346772869888&gclid=Cj0KCQiAtf_tBRDtARIsAIbAKe2OzmwTBRtbN7s8wff7neWHcq0giWLzl0-zDsq5FYS4ngl6pOe8TmMaAmZ3EALw_wcB&gclsrc=aw.ds
+1. При попытке выставить время аренды и возврата авто в одно и то же время возникает сообщение об ошибке.
+Steps:
+        1) В поле "Pick-up location" выбираем "Minsk"
+        2) В поле "Drop-off location" выбираем "Minsk" 
+	3) В поле "Pick-up Date" выбираем "04.11.2019" 
+	4) В поле "Drop-off Date" выбраем "04.11.2019"  
+	5) В "Pick-up Time" ставим время "12.00"
+	6) В "Drop-off Time" ставим время "12.00"
+	7) Нажимаем на "Search rental car"
+Результат: появляется сообщение об ошибке: "An error has occurred. Please resolve the following issue before you continue:
+The return date should be after the rental date."
+2. При попытке выставить время возврата транспортного средства ранее времени аренды возникает сообщение об ошибке.
+Steps:
+	1) В поле "Pick-up location" выбираем "Moscow - Domodedovo"
+        2) В поле "Drop-off location" выбираем "Moscow - Domodedovo" 
+	3) В поле "Pick-up Date" выбираем "04.11.2019" 
+	4) В поле "Drop-off Date" выбраем "04.11.2019"  
+	5) В поле "Pick-up Time" ставим время "12.00"
+	6) В поле "Drop-off Time" ставим время "8.30"
+	7) Нажимаем на "Search rental car"
+Результат: появляется сообщение об ошибке: "An error has occurred. Please resolve the following issue before you continue:
+The return date should be after the rental date."
+3. Проверим, можно ли взять автомобиль в аренду на одном континенте, а вернуть на другом.
+Steps:
+        1) В поле "Pick-up location" выбираем "New York - JFK International"
+        2) В поле "Drop-off location" выбираем "Moscow - Domodedovo" 
+	3) В поле "Pick-up Date" выбираем "04.11.2019" 
+	4) В поле "Drop-off Date" выбраем "04.11.2019"  
+	5) В поле "Pick-up Time" ставим время "12.00"
+	6) В поле "Drop-off Time" ставим время "13.00"
+	7) Нажимаем на "Search rental car"
+Результат: появляется сообщение об ошибке: "There are no available cars that match your criteria. Please modify your request and try again. (20060)"
+4. Проверим, можно ли взять ввести в поле город, где аренда автомобиля невозможна.
+Steps:
+        1) В поле "Pick-up location" выбираем "Mozyr"
+        2) В поле "Drop-off location" выбираем "Moscow - Domodedovo" 
+	3) В поле "Choose Pick-up Date" выбираем "04.11.2019" 
+	4) В поле "Choose Drop-off Date" выбраем "04.11.2019"  
+	5) В поле "Pick-up Time" ставим время "12.00"
+	6) В поле "Drop-off Time" ставим время "8.30"
+	7) Нажимаем на "Search rental car"
+Результат: появляется сообщение об ошибке: "Please enter your pick-up location."
+5. Проверим, что при вводе в форму "Email" невалидного адреса электронной почты, регистрация не происходит.
+Steps:
+       1) Переходим по кнопке "Login or Register".
+       2) Выбираем "Register to create new account".
+       3) В поле "Email" записываем "email_a".
+Результат: появляется сообщение об ошибке: "Please enter a valid e-mail address."
+6. Проверим, что при вводе в форму "Password" ненадежного пароля, регистрация не происходит.
+Steps:
+       1) Переходим по кнопке "Login or Register".
+       2) Выбираем "Register to create new account".
+       3) В поле "Password" записываем "qwe_rty196".
+Результат: появляется сообщение об ошибке: "Please enter a valid password."
+7. Проверим, что при вводе в форму "Repeat password" неверного пароля, регистрация не происходит.
+Steps:
+       1) Переходим по кнопке "Login or Register".
+       2) Выбираем "Register to create new account".
+       3) В поле "Password" записываем "qwe_rtY123".
+       4) В поле "Repeat password" записываем "qwertY"
+Результат: появляется сообщение об ошибке: "Password does not match the previous entry."
+8. При попытке заказать аренду автомобиля на время, которое уже истекло, возникает сообщние об ошибке.
+Steps:
+        1) В поле Pick-up location выбираем "Moscow - Domodedovo"
+        2) В поле Drop-off location выбираем "Moscow - Domodedovo".
+	3) В поле "Pick-up Date" выбираем "04.11.2019.
+	4) В поле Choose "Drop-off Date" выбраем "04.11.2019". 
+	5) В "Pick-up Time" ставим время "8.00"  (Текущее время - 13:43)
+	6) В "Drop-off Time" ставим время "20.00"
+	7) Нажимаем на "Search rental car"
+Результат: появляется сообщение об ошибке: "An error has occurred. Please note:
+Submit Validation Failed"
+9. Проверим, можно ли взять автомобиль в аренду на долгое время.
+Steps:
+        1) В поле "Pick-up location" выбираем "Moscow - Domodedovo"
+        2) В поле "Drop-off location" выбираем "Minsk".
+	3) В поле "Pick-up Date" выбираем "04.11.2019.
+	4) В поле "Drop-off Date" выбраем "26.03.2020". 
+	5) В поле "Pick-up Time" ставим время "17.00"
+	6) В поле "Drop-off Time" ставим время "12.00"
+	7) Нажимаем на "Search rental car"
+Результат: появляется сообщение об ошибке: "There are no available cars that match your criteria. Please modify your request and try again. (20060)"
+10. Проверим, можно ли оставить пустым поле "Drop-off location".
+Steps:
+        1) В поле "Pick-up location" выбираем "Minsk"
+        2) В поле "Drop-off location" выбираем " ".
+	3) В поле "Pick-up Date" выбираем "04.11.2019.
+	4) В поле "Drop-off Date" выбраем "05.11.2019". 
+	5) В поле "Pick-up Time" ставим время "17.00"
+	6) В поле "Drop-off Time" ставим время "12.00"
+	7) Нажимаем на "Search rental car"
+Результат: появляется сообщение об ошибке: "Please enter your drop-off location."
