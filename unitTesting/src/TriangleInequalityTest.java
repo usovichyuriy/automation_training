@@ -3,7 +3,7 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
 
-public class triangleInequalityTest {
+public class TriangleInequalityTest {
     @Test
     public void rightTriangle() {
         assertTrue(triangleInequality.getValues(3, 4, 5));
