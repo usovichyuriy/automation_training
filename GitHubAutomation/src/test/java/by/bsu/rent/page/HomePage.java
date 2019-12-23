@@ -112,11 +112,11 @@ public class HomePage extends AbstractPage {
     }
 
     public boolean checkLocationErrorMessage(PageError errorMessage) {
-        return locationError.isDisplayed() && locationError.getText().contains(errorMessage);
+        return locationError.isDisplayed() && locationError.getText().contains((CharSequence) errorMessage);
     }
 
     public boolean checkTimeErrorMessage(PageError errorMessage) {
-        return timeError.isDisplayed() && timeError.getText().contains(errorMessage);
+        return timeError.isDisplayed() && timeError.getText().contains((CharSequence) errorMessage);
     }
 
 
