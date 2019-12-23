@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Smoke" verbose="1">
-    <test name="LanguageChanging" >
+    <test name="RegisterPageTest" >
         <packages>
             <package name="by.bsu.rent.test"/>
         </packages>
