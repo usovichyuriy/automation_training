@@ -73,7 +73,7 @@ public class RegisterPage extends AbstractPage {
     }
 
     public boolean checkEmailErrorMessage(PageError errorMessage) {
-        return emailError.isDisplayed() && emailError.getText().contains(errorMessage);
+        return emailError.isDisplayed() && emailError.getText().contains((CharSequence) errorMessage);
     }
 
     public void clickToRegister() {
