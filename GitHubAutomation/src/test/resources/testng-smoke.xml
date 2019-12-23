@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Smoke" verbose="1">
-    <test name="LanguageChanging" >
+    <test name="RegisterPage" >
         <classes>
-            <class name="by.bsu.rent.test.LanguageChangingTest"/>
+            <class name="by.bsu.rent.test.RegisterPageTest"/>
         </classes>
     </test>
 </suite>
